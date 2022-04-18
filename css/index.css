@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Montserrat:wght@500;600;700;800&family=Ubuntu:wght@500;700&display=swap');
+
+body{
+  margin: 0;
+  background-color: #efefef;
+}
+
+
+.container{
+  background-color: #563d7c;
+  font-family: 'Montserrat',sans-serif;
+}
+
+#brand{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #fff;
+}
+
+.fa-duotone fa-user-hair{
+  height: 200%;
+}
+
+#brand{
+  font-weight: bold;
+  font-family: 'Ubuntu',sans-serif;
+}
+
+#dropdownMenuLink{
+  background-color: #563d7c;
+}
+
+.feature-img{
+  padding: 5% 10% 5% 10%;
+  margin: 0;
+}
+
+#feature-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{
+  margin: 0;
+}
+
+.col-lg-7{
+  color: white;
+  padding-bottom: 5px;
+  border-radius: 2%;
+}
+.intro{
+  color: white;
+}
+.intro-main{
+  background-color: rgba(0, 0, 0, 0.863);
+}
+
+.users{
+  display: inline-block;
+}
+
+.users-text{
+  position: relative;
+  left: 30rem;
+}
+
+.question-button{
+  position: relative;
+  left: 37.5rem;
+  bottom: 2.8rem;
+}
+
+
+.col-lg-3{
+  height: 245px;
+
+}
+
+.card{
+  text-align: center;
+}
+.card-2{
+  position: relative;
+  left: 144px;
+  bottom: 122.594px;
+  width: 9rem;
+}
+
+.card-3{
+  position: relative;
+  bottom: 119.594px;
+  width: 9rem;
+}
+
+.card-4{
+  position: relative;
+  bottom: 243.188px;
+  left: 144px;
+}
+
+.fa-brands{
+  color: #ef8172;
+  padding: 5%;
+}
+.fa-brands:hover{
+  text-decoration: none;
+}
+
+.footer-about,.footer-center,.footer-left{
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+.fa-facebook{
+  color: #1a0dab;
+}
+
+.fa-twitter{
+  color: #675ce6 ;
+}
+
+.fa-instagram{
+  color: #e1306c;
+}
+
+.fa-skype{
+  color: rgb(2, 161, 253);
+}

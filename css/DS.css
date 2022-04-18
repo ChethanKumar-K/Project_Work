@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Montserrat:wght@500;600;700;800&family=Ubuntu:wght@500;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 1%;
+  background-color: #efefef;
+}
+
+
+.container{
+  background-color: #563d7c;
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+
+#brand{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.fa-duotone fa-user-hair{
+  height: 200%;
+}
+
+#brand{
+  font-weight: bold;
+  font-family: 'Ubuntu',sans-serif;
+}
+
+#dropdownMenuLink{
+  background-color: #563d7c;
+}
+
+.questions-column{
+  color: black;
+}
+
+.Question_content{
+  padding: 1%;
+}
+
+.row{
+  padding: 1%;
+}
+
+/* Styling for sidenav */
+
+.side-nav{
+  width: 20%;
+  position: fixed;
+}
+
+
+.questions{
+  margin-left: 25%;
+  margin-top: 2%;
+  background-color: rgb(77, 213, 251);
+  border-radius: 2%;
+  height: 45vh;
+  overflow-y: scroll;
+
+}
+
+.question{
+  text-align: center;
+}
+.answer{
+  font-size: 1.2rem;
+  text-align: center;
+}
