@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <!-- Font Awesome Scripts -->
+  <script src="https://kit.fontawesome.com/3ee3faddbe.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- Footer Styling -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <title>Ask Questions</title>
+</head>
+<body>
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" id="brand" >BMS Discussion<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="home.html" >Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" ">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html" ">Profile</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" style="padding-right:5%;">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      
+        <!-- <a class="nav-link" href="#" style="padding: 12px;"><i class="fa-solid fa-user-graduate fa-2xl"></i></a> -->
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa-solid fa-user-graduate fa-2xl"></i>
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#">Profile</a>
+            <a class="dropdown-item" href="#">Sign-Out</a>
+          </div>
+        </div>
+      
+      </ul>
+    </div>
+  </nav>
+  </div>
+  
+  <div class="row feature-img">
+    <div class="col-lg-12 ">
+      <!-- <img src="images/forum-how-to-header.png"  alt="Responsive image" id="feature-image"> -->
+      <img src="images/forum-how-to-header.png" class="rounded mx-auto d-block img-fluid" alt="...">
+    </div>
+  </div>
+  
+  <div class="row content">
+    <div class="col-lg-2 col-md-6">
+      <div class="card" >
+        <img class="card-img-top img-fluid" src="images/ans_edited.jpg" alt="Card image cap" style="height: 70px;">
+        <div class="card-body">
+          <h5 class="card-title" style="padding-bottom: 0;">SUBJECTS</h5>
+          <p class="card-text">Choose subject and start learning.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="">Micro Processor</a></li>
+          <li class="list-group-item"><a href="">COA</a></li>
+          <li class="list-group-item"><a href="">Logic Design</a></li>
+          <li class="list-group-item"><a href="">SDM</a></li>
+          <li class="list-group-item"><a href="DS.html">Data Structure</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="col-lg-7 col-md-6" style="background-color: rgb(5, 184, 238);">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active intro" href="#">Recent Questions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link intro" href="#">Most Answered</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link intro" href="#">Most Visited</a>
+        </li>
+      </ul>
+      <hr style="height: 0.1rem;background-color: whitesmoke;">
+      <form action="">
+        <div class="form-group"  style="background-color: rgb(5, 184, 238);">
+          <p class="users"><i class="fa-solid fa-users fa-3x"></i><span class="users-text">Ask your question here</span></p>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+        </div>
+      </form>
+      
+      <div class="custom-file form-control-sm " style="width:50%">
+        <input type="file" class="custom-file-input" id="customFile">
+        <label class="custom-file-label" for="customFile">Upload Screen Shot</label>
+        <button type="button" class="btn btn-primary question-button">Submit</button>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <a class="btn btn-primary" href="#" role="button" style="margin-left: 6rem;margin-bottom: 1rem;">Dashboard</a>
+      <div class="card card-1" style="width: 9rem;">
+        <div class="card-body">
+          <p>Questions</p>
+          <h3>21</h3>
+        </div>
+      </div>
+      <div class="card card-2" >
+        <div class="card-body">
+          <p>Answers</p>
+          <h3>81</h3>
+        </div>
+      </div>
+      <div class="card card-3" >
+        <div class="card-body">
+          <p>Best Answers</p>
+          <h3>12</h3>
+        </div>
+      </div>
+      <div class="card card-4" style="width: 9rem;">
+        <div class="card-body">
+          <p>Current Users</p>
+          <h3>45</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER PART -->
+
+  <div style="background-color: #ef8172;" >
+    <footer class="footer-distributed" style="background-color: #ef8172;">
+
+      <div class="footer-left" style="width: 30%;">
+  
+        <h3 style="color: white;">BMS<span>Discuss</span></h3>
+  
+        <p class="footer-links">
+          <a href="#">Home</a>
+          <br>
+          <a href="about.html">About </a>
+          <br>
+          <a href="#">FAQ</a>
+          <br>
+          <a href="contact2.html">Contact Us</a>
+        </p>
+  
+        <p class="footer-company-name">BMS Discuss &copy; 2022</p>
+      </div>
+  
+      <div class="footer-center">
+        <h2 class="col" style="text-align: center;">Follow us on:</h2>
+        <div class="icons">
+          <a href="#" class="fa-brands fa-facebook fa-3x"></a>
+          <a  href="#" class="fa-brands fa-twitter fa-3x"></a>
+          <a  href="#" class="fa-brands fa-instagram fa-3x"></a>
+          <a  href="#" class="fa-brands fa-skype fa-3x"></a>
+        </div>
+      </div>
+      <div class="footer-right" style="text-align: center;padding-left: 10%;width: 30%;">
+  
+        <p class="footer-about">
+          <span1>Designed by:</span1>
+          <span>Bhuvan G</span>
+          <span>Chethan Kumar K</span>
+          <span>Dhavan B Naik</span>
+          <span>Dinesh Kumar G</span>
+        </p>
+        
+      </div>
+  
+    </footer>
+  </div>
+
+</body>
+</html>

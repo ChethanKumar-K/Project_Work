@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <!-- Font Awesome Scripts -->
+  <script src="https://kit.fontawesome.com/3ee3faddbe.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/DS.css">
+
+  <title>DS Qp</title>
+</head>
+
+
+
+<body>
+  <div class="container" >
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id="brand" >BMS Discussion<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html" style="color: white;">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" style="color: white;">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html" style="color: white;">Profile</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" style="padding-right:5%;">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        
+          <!-- <a class="nav-link" href="#" style="padding: 12px;"><i class="fa-solid fa-user-graduate fa-2xl"></i></a> -->
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-user-graduate fa-2xl"></i>
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Home</a>
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Sign-Out</a>
+            </div>
+          </div>
+        
+        </ul>
+      </div>
+    </nav>
+    </div>
+
+    <div class="Question_content">
+      <div class="side-nav">
+        <div class="card" >
+          <img class="card-img-top img-fluid" src="images/ans_edited.jpg" alt="Card image cap" style="height: 70px;">
+          <div class="card-body">
+            <h5 class="card-title" style="padding-bottom: 0;">SUBJECTS</h5>
+            <p class="card-text">Choose subject and start learning.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="mpmc.html">Micro Processor</a></li>
+            <li class="list-group-item"><a href="coa.html">COA</a></li>
+            <li class="list-group-item"><a href="lod.html">Logic Design</a></li>
+            <li class="list-group-item"><a href="ooj.html">OOJ</li>
+            <li class="list-group-item"><a href="DS.html">Data Structure</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Questions -->
+      <div class="questions">
+          <h2 class="question">Is computer organization and architecture useful for a placement?</h2>
+          <p class="answer">
+            It really depends on the companies you are interviewing or aiming to interview for. 
+            As far as my limited knowledge about campus placements goes, most companies do not expect a lot of specialized knowledge about subjects like computer architecture. 
+            They are keen on probing you on mathematics and programming. Especially web-development, e-commerce organizations don’t really care about specialized technical knowledge. 
+            Data Structure and Algorithms are their bread and butter. A few hard-core technical companies and design houses though might go a level deeper. 
+            These include the likes of Nvidia, Intel, Samsung, Qualcomm and some EDA companies (Synopsys, Cadence) etc. 
+            Since these companies are in a niche domain of chip-designing, you’ll definitely stand an advantage by knocking off a few questions about computer organization and architecture.
+          </p>
+      </div>
+
+      <div class="questions">
+        <h2 class="question">
+          What is an interrupt in the computer organization and architecture?
+        </h2>
+        <p class="answer">
+          Interrupt signal is a active low (0) or active high (1) signal used to send to a device to say "Hey, stop doing what you're doing and listen to me. I've got something for you".
+          Now it's up to the interrupt receiver device. It may stop it's operations and start communicating with interrupting device or it may reject the interruption request.
+          Some interrupts can be overridden, those interrupts are called maskable interrupts. And some interrupts can't be overridden no matter what operations are going on, 
+          device is bound to accept the interrupt and stop doing operations and listen to interrupting device. This kind of interrupts are called non maskable interrupts.       
+        </p>
+      </div>
+    </div>
+
+    <div class="questions">
+      <h2 class="question">
+        Is computer organization and architecture an important subject? Do we need to study it in depth?
+      </h2>
+      <p class="answer">
+        Honestly it is probably not a study area that will get you many jobs today. If you pursue anything related to code performance or tuning, then such study is very important. 
+        But not many jobs are offered in those areas.
+        <br>
+        Obtaining functionality, using big data methods, using neural networks, are all more job friendly studies today.
+     
+      </p>
+    </div>
+
+
+</body>
+</html>
