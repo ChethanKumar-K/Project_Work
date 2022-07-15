@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #ddd;
+}
+
+nav{
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+  margin: 0 0 0 50%;
+}
+
+nav ul{
+  list-style: none;
+  position: relative;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  color: #444;
+  text-decoration: none;
+  display: block;
+  padding: 0.75em 1.75em;
+}
+
+nav li:hover{
+  background: #444;
+  color: #fff;
+}
+
+nav li:hover a{
+  color: #fff;
+} 
+
+.menu-sub{
+  position: absolute;
+  width: initial;
+  background: #444;
+  color: #fff;
+  display: none;
+}
+
+nav li:hover .menu-sub{
+  display: block;
+}
+
+.menu-sub li{
+  display: block;
+}
+
+.menu-sub h3{
+  margin: 0.5em 0 0.5em;
+}
+.menu-sub a{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-sub li:hover{
+  text-decoration: underline;
+  font-size: large;
+  margin: 0.5em;
+  position: relative;
+}
+
+.menu-sub-sub-1,
+.menu-sub-sub-2,
+.menu-sub-sub-3,
+.menu-sub-sub-4,
+.menu-sub-sub-5{
+  position: absolute;
+  left: 70%;
+  top: 0;
+  background-color: rebeccapurple;
+  width:fit-content;
+  margin: 0.3rem 0.2rem;
+  display: none;
+}
+
+.menu-sub li:nth-child(1):hover .menu-sub-sub-1{
+  display: block;
+}
+
+.menu-sub li:nth-child(2):hover .menu-sub-sub-2{
+  display: block;
+}
+
+.menu-sub li:nth-child(3):hover .menu-sub-sub-3{
+  display: block;
+}
+
+.menu-sub li:nth-child(4):hover .menu-sub-sub-4{
+  display: block;
+}
+
+.menu-sub li:nth-child(5):hover .menu-sub-sub-5{
+  display: block;
+}
